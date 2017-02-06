@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android ="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/ScrollView02" android:layout_width = "wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Please enter the person's name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/name_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/date_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Please enter the date when the diemensions were valid"
+        android:layout_below="@+id/name1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/date1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/date_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/neck_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Neck size(inches)"
+        android:layout_below="@+id/date1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/neck1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/neck_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/bust_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Bust size(inches)"
+        android:layout_below="@+id/neck1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/bust1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/bust_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/chest_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Chest size(inches)"
+        android:layout_below="@+id/bust1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/chest1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/chest_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/waist_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Waist size(inches)"
+        android:layout_below="@+id/chest1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/waist1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/waist_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/hip_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Hip size(inches)"
+        android:layout_below="@+id/waist1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/hip1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/hip_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/inseam_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Inseam size(inches)"
+        android:layout_below="@+id/hip1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/inseam1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+        android:layout_below="@+id/inseam_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/comment_enter1"
+        android:layout_width="fill_parent"
+        android:layout_height="16dp"
+        android:text="Comments"
+        android:layout_below="@+id/inseam1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/comment1"
+        android:scrollbars="horizontal"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/comment_enter1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+    android:id = "@+id/DeleteButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/Widget.AppCompat.Button"
+    android:text="DELETE RECORD"
+    android:layout_below="@+id/comment1"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    />
+
+    <Button
+        android:id = "@+id/DoneButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:text="DONE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+    </ScrollView>

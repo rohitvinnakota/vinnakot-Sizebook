@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="433157381734960"
+    token="2442109797840945135"
+    verifier="R_CLASS_CHANGE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="55" />
+    <task
+        name="verifier"
+        duration="47" />
+
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_5cab2b78fbb92be3ae29babb34ac5f44310fed0b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_5e3ae12c0e4a143ec5ad829b52b8950f90c95f5e\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e8bd08a63cd4b9d2cd29eee2e3e60f311887b1bc\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_55694b5d6576bc17bac31915e760525a6d9821bd\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_691dd8baa45540fd8ef2ffa0fd9c33cb3bfce565\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_f3aeded65e651c7196e8d8c3af966aa086afd13d\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_443c981b0ea82b73beee73c1adf788d458612e49\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_165e3b3743f97709fa70e9660b00ff0469e575e8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_68104bd032ebdc14fd3ad91217b6f81d622d7231\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_16988b9ebdff7d6225510607564fa1133dca2e6b\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_494cf293e2358847467afa32007f1b8b28a32ace\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_af5b6dff8d8f2ef92442f879722bfe352825eaf8\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_a3894777873b96e648105d099d8fd1e64b4b8d59\classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="430828342746728"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="433157381734960"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_5cab2b78fbb92be3ae29babb34ac5f44310fed0b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_5e3ae12c0e4a143ec5ad829b52b8950f90c95f5e\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e8bd08a63cd4b9d2cd29eee2e3e60f311887b1bc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_55694b5d6576bc17bac31915e760525a6d9821bd\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_691dd8baa45540fd8ef2ffa0fd9c33cb3bfce565\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_f3aeded65e651c7196e8d8c3af966aa086afd13d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_443c981b0ea82b73beee73c1adf788d458612e49\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_165e3b3743f97709fa70e9660b00ff0469e575e8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_68104bd032ebdc14fd3ad91217b6f81d622d7231\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_16988b9ebdff7d6225510607564fa1133dca2e6b\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_494cf293e2358847467afa32007f1b8b28a32ace\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_af5b6dff8d8f2ef92442f879722bfe352825eaf8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\Rohit\AndroidStudioProjects\Sizebook\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_a3894777873b96e648105d099d8fd1e64b4b8d59\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
