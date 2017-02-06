@@ -34,6 +34,5 @@ public class ViewPeople extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.viewpeople);
         Intent intent = getIntent();
-
     }
 }

@@ -70,6 +70,7 @@
         android:inputType="numberDecimal"
         android:layout_below="@+id/neck_enter"
         android:layout_alignParentLeft="true"
+        android:digits="0123456789."
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -88,6 +89,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/bust_enter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -107,6 +109,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/chest_enter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -126,6 +129,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/waist_enter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -145,6 +149,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/hip_enter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -164,6 +169,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/inseam_enter"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

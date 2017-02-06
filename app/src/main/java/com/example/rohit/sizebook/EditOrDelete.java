@@ -11,7 +11,17 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 /**
- * Created by Rohit on 2017-02-06.
+ * Once a record is created, the user can click on that record to access this screen. Here the user
+ * can either edit or delete the data.
+ * <code>
+ *     if (user clicks on list view object)
+ *          user can edit:
+ *              if (user clicks delete):
+ *                  record is deleted-count is changed
+ * </code>
+ * This class is very similar to CreateActivity.java and uses the same techniques to fill in user data
+ * @see CreateActivity
+ *
  */
 
 public class EditOrDelete extends MainActivity{
@@ -37,6 +47,7 @@ public class EditOrDelete extends MainActivity{
     private EditText comment1;
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);

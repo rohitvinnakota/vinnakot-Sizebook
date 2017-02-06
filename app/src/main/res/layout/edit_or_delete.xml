@@ -60,6 +60,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/neck_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -80,6 +81,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/bust_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -99,6 +101,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/chest_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -118,6 +121,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/waist_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -137,6 +141,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/hip_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -156,9 +161,11 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:inputType="numberDecimal"
+        android:digits="0123456789."
         android:layout_below="@+id/inseam_enter1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
     <TextView
         android:id="@+id/comment_enter1"
         android:layout_width="fill_parent"
@@ -167,6 +174,7 @@
         android:layout_below="@+id/inseam1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
     <EditText
         android:id="@+id/comment1"
         android:scrollbars="horizontal"

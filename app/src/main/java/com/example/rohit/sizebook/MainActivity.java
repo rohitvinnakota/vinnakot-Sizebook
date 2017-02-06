@@ -29,8 +29,16 @@ import com.google.gson.reflect.TypeToken;
 /**
  * This is the first screen the user sees when they log in. By default the user can see a list of views representing
  * the name of a person. Upon clicking on the name button, the system calls a new activity showing the attributes
- * that the user has entered for that person.
+ * that the user has entered for that person. The "file.sav" allows us to save the application state even when the
+ * emulator is exited. <br>
+ *     <p>
+ *         @see #loadFromFile()
+ *         @see #saveInFile()
+ *     </p>
  *
+ *  @version 1.0.1
+ *  @author Rohit Vinnakota
+ *  @since 1.0.0
  */
 public class MainActivity extends Activity {
 
@@ -42,6 +50,10 @@ public class MainActivity extends Activity {
     public TextView count1;
 
     @Override
+    /**
+     * Creates an oldPeople Listview to populate the home screen and a TextView object
+     * that changes the layout whenever a new object is added/deleted
+     */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -53,6 +65,7 @@ public class MainActivity extends Activity {
         adapter = new ArrayAdapter<Person>(this, R.layout.list_item, peopleList);
         oldPeople.setAdapter(adapter);
         oldPeople.setOnItemClickListener(
+                // https://www.youtube.com/watch?v=A-_hKWMA7mk
                 new AdapterView.OnItemClickListener(){
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

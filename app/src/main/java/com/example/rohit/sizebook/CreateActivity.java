@@ -26,11 +26,20 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
 /**
  * Created by Rohit on 2017-02-05.
+ * This activity provides the user with fields to input their values into
+ * The fields are restricted to certain parameters
  */
 
 public class CreateActivity extends MainActivity {
+    /**
+     * Extends the main activity class to directly use the save and load from file methods
+     * Certain variables were made public for easy access and to write directly to filename.dat
+     *
+     */
+
     private ArrayList<Person> peopleList;
     private static final String FILENAME = "file.sav";
     private ArrayAdapter<Person> adapter;
@@ -44,6 +53,7 @@ public class CreateActivity extends MainActivity {
     private EditText comment;
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_main);
@@ -62,6 +72,10 @@ public class CreateActivity extends MainActivity {
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
                 } else {
+                    /*
+                    * Else create a new person and populate the tables. I restrict user input
+                    * through the xml files
+                    * */
                     Person p = new Person(name);
                     p.setName(name);
                     date = (EditText) findViewById(R.id.date);
