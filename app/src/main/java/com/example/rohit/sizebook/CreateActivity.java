@@ -40,9 +40,6 @@ public class CreateActivity extends MainActivity {
      *
      */
 
-    private ArrayList<Person> peopleList;
-    private static final String FILENAME = "file.sav";
-    private ArrayAdapter<Person> adapter;
     private EditText date;
     private EditText neck;
     private EditText bust;
